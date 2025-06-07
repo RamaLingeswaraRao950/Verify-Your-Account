@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Verified</title>
+  <style>
+    body {
+      background-color: #e6fff2;
+      font-family: Arial, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .message {
+      font-size: 28px;
+      color: green;
+      display: flex;
+      align-items: center;
+    }
+    .tick {
+      font-size: 32px;
+      margin-right: 10px;
+    }
+  </style>
+  <script>
+    if (!document.referrer || performance.navigation.type === 1) {
+      window.location.href = 'index.html';
+    }
+  </script>
+</head>
+<body>
+  <div class="message">
+    <span class="tick">✅</span> Your Account is Verified
+  </div>
+</body>
+</html>
